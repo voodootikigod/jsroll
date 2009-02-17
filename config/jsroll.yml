@@ -3,7 +3,7 @@ app_title: JSRoll
 default_title: "JSRoll : Community Filtered JavaScript News"
 sub_title: "Community-maintained JavaScript News"
 app_url: http://www.jsroll.com/
-rss_url: http://feeds.feedburner.com/jsroll
+rss_url: http://feeds2.feedburner.com/jsroll
 meta_keywords: "javascript, javascript news, javascript blog, js, JavaScript, JS Frameworks, JavaScript Frameworks, Libraries, jQuery, Dojo, Prototype, Scriptaculous, Moo"
 meta_author: "Chris Williams"
 body_class: jsroll
@@ -17,9 +17,10 @@ edit_expiration_in_minutes: 60
 
 # ga: UA-2237791-7
 sidebar: |-
-  <h3>What?</h3><p>JSRoll is a community driven JavaScript links site, based off the codebase provided by <a href="http://www.rubyflow.com">RubyFlow</a>. Items are not added automatically, but chosen and summarized by the community, resulting in a high quality of links.</p>
+  <p style="text-align:center"><a href="http://www.jsconf2009.com"><img src="http://jsconf.s3.amazonaws.com/badges/jsconf.jpg" width="180" alt="JSConf 2009"/></a><br/>Help build the JavaScript community, come to <a href="http://www.jsconf2009.com">JSConf 2009</a>.</p>
+  <h3>What?</h3><p>JSRoll is a community driven JavaScript links site. Items are not added automatically, but chosen and summarized by the community, resulting in a high quality of links.</p>
   <h3>How?</h3><p>Enjoy the links, comment or <a href="/items/new">make a post</a> of your own. You don't need to be signed in!</p>
   <p><em>Note: If you're not signed in, your byline is unlinked and your links are made "nofollow" to prevent spam. You also get CAPTCHAed!</em></p>
   <h3>Who?</h3><p>JSRoll is maintained by <a href="http://www.voodootikigod.com">Chris Williams</a> of <a href="http://www.iterativedesigns.com">Iterative Designs</a> as a way to further build the JavaScript community. We are the crazy people behind <a href="http://www.jsconf2009.com">JSConf 2009</a> as well. The original RubyFlow was built by <a href="http://peterc.org/">Peter Cooper</a> of <a href="http://www.rubyinside.com/" rel="nofollow">Ruby Inside</a>, but is ultimately a community site.</p>
-  <p><small>Yes, this site is influenced by <a href="http://www.metafilter.com/">MetaFilter</a>. I wrote a popular MetaFilter <a href="http://www.google.com/search?q=metafilter+freefilter">clone</a> back in the day so it's okay!</small></p>
-  <p><a href="http://feeds.feedburner.com/jsroll"><img src="http://feeds.feedburner.com/~fc/jsroll?bg=cc0000&amp;fg=FFFFFF&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a></p>
+  <p><small>This site is based off the codebase provided by <a href="http://www.rubyflow.com">RubyFlow</a>. </small></p>
+  <p><a href="http://feeds2.feedburner.com/jsroll" rel="alternate" type="application/rss+xml"><img src="http://www.feedburner.com/fb/images/pub/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0"/></a>&nbsp;<a href="http://feeds2.feedburner.com/jsroll" rel="alternate" type="application/rss+xml">Subscribe in a reader</a></p>

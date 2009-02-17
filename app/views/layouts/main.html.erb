@@ -18,7 +18,7 @@
 	<body class="<%= @body_class %> <%= APP_CONFIG[:body_class] %>">
 	
   	<div id="header">
-  		<h1><a href="/" class="home"><%= APP_CONFIG[:app_title] %></a></h1>
+  		<h1><a href="/" class="home"><%= APP_CONFIG[:app_title] %></a><span>Community Driven JavaScript News</h1>
   		<div id="stuff">
   		  <%= link_to 'Home', root_url %> | <a href="<%= APP_CONFIG[:rss_url] %>">RSS Feed</a> | 
   		  <%= link_to 'Post Item', new_item_path, :class => 'rubyred' %> |
