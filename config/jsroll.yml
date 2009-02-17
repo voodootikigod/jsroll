@@ -15,7 +15,9 @@ uses_javascript: false
 # Set to 0 or omit to always allow editing of items by its owner
 edit_expiration_in_minutes: 60
 
-# ga: UA-2237791-7
+
+
+ga: UA-1264213-11
 sidebar: |-
   <p style="text-align:center"><a href="http://www.jsconf2009.com"><img src="http://jsconf.s3.amazonaws.com/badges/jsconf.jpg" width="180" alt="JSConf 2009"/></a><br/>Help build the JavaScript community, come to <a href="http://www.jsconf2009.com">JSConf 2009</a>.</p>
   <h3>What?</h3><p>JSRoll is a community driven JavaScript links site. Items are not added automatically, but chosen and summarized by the community, resulting in a high quality of links.</p>
