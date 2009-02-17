@@ -1,4 +1,5 @@
-app_name = "rubyflow"
+app_name = "jsroll"
+PROJECT_NAME= "jsroll"
 
 # Be sure to restart your server when you modify this file
 
