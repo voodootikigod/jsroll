@@ -376,7 +376,15 @@ h1 span	{font-size:70%; color:#333; margin-left:20px;}
 }
 
 .entry { 
-	margin-right : 60px;}
+	margin-right : 60px;padding-bottom:0.5em;}
+	
+	
+#content .post .metadata {
+	padding-bottom:1.4em;
+}
+.post {
+	border-bottom: 1px solid #ccc;
+}
 .description {
 	font-style: italic;
 	font-weight: normal;
