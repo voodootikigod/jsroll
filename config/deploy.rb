@@ -2,7 +2,7 @@
 
 
 set :application, "jsroll"
-set :repository, "git@github.com:voodootikigod/#{application}.git"
+set :repository, "github-jsroll:voodootikigod/#{application}.git"
 set :scm, "git"
 set :deploy_via, :remote_cache
 
