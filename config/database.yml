@@ -27,4 +27,3 @@ production:
   host: localhost
   encoding: utf8
   collation: utf8_general_ci
-  socket: /var/lib/mysql/mysql.sock
