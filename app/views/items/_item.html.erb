@@ -1,5 +1,7 @@
 <div class="post" style="position: relative;" id="item_wrapper_for_<%= item.id %>">
-  
+  <div class="entry_title">
+    <%=safe(item.title)%>
+  </div>
 	<div class="entry">
 	<%= auto_link(safe(item.content)) %>
   <!-- p>Tags: <% item.tag_array.each do |tag| %><%= link_to tag, tag_url(tag) %> <% end %></p -->

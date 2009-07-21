@@ -437,3 +437,10 @@ BODY.pythonflow .entry A:visited { text-decoration: none; }
 	text-decoration: none !important;
 }
 /* @end */
+
+
+div.entry_title {
+	font-weight:bold;
+	font-size: 120%;
+	margin-bottom:0.5em;
+}
