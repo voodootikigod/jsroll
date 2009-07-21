@@ -2,6 +2,7 @@ class Item < ActiveRecord::Base
   belongs_to :user
   has_many :comments
 	has_many :stars, :dependent => :destroy
+  acts_as_tagger
   
   serialize :metadata
   

@@ -1,5 +1,5 @@
 class ItemsController < ApplicationController
-  before_filter :login_required, :except => [:show, :list_for_tag, :index, :search, :category, :new, :create]
+  before_filter :login_required, :except => [:show, :list_for_tag, :index, :search, :new, :create]
   before_filter :admin_required, :only => [:destroy]
   before_filter :permission_required, :only => [:edit, :update]  
   before_filter :do_pagination, :only => [:index, :list_for_tag, :list_for_tags, :search, :recently]
@@ -153,11 +153,6 @@ class ItemsController < ApplicationController
     end    
   end
   
-  def category
-    @category = Category.find_by_name(params[:id])
-    go_404 and return unless @category
-    @items = Item.find_all_for_all_tags(@category.query.split(/\s/))
-  end
   
   def recently
     @last_checked_at = current_user.last_checked_at
