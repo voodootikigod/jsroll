@@ -9,7 +9,7 @@ meta_author: "Chris Williams"
 body_class: jsroll
 
 # Set this to true for a more fancy interface, but for the cost of page load time
-uses_javascript: false
+uses_javascript: true
 
 # Edit expiration default: 60 (this means that editing ends 60 minutes after last update of item)
 # Set to 0 or omit to always allow editing of items by its owner

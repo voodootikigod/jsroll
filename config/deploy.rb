@@ -62,6 +62,16 @@ namespace :deploy do
 end
 
 
+before "deploy:symlink", "recaptcha:symlink"
+
+namespace :recaptcha do
+  desc "Symbolically link recaptcha values"
+  task :symlink do
+    run <<-CMD
+      ln -nfs #{shared_path}/system/recaptcha.rb #{release_path}/config/initializers/recaptcha.rb
+    CMD
+  end
+end
 
 
 namespace :db do
