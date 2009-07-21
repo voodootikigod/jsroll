@@ -80,7 +80,7 @@ class ItemsController < ApplicationController
     end
     
     unless logged_in?
-      unless Digest::SHA1.hexdigest(params[:captcha].upcase.chomp)[0..5] == params[:captcha_guide]
+      unless verify_recaptcha
         @item.errors.add("Word")
         render :action => 'new'
         return

@@ -10,7 +10,7 @@ class UsersController < ApplicationController
     cookies.delete :auth_token
     
     @user = User.new(params[:user])
-    unless Digest::SHA1.hexdigest(params[:captcha].upcase.chomp)[0..5] == params[:captcha_guide]
+    unless verify_recaptcha
       @user.errors.add("Word")
       render :action => 'new'
       return
